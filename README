@@ -150,7 +150,7 @@ $git  clone  https:// https:// github.com/FAST-Switch/fast.git
 
 （2）进入sw-src目录
 
-	$cd   fast/projects/SDTS/sw-src
+$cd   fast/projects/SDTS/sw-src
 
 （3）按照2.2步骤添加代码
 
@@ -160,16 +160,16 @@ $sudo  make  clean
 
 $sudo  make
 
-（5）	运行floodlight控制器（这里假设用户已经下载安装好floodlight）
+（5）运行floodlight控制器（这里假设用户已经下载安装好floodlight）
 $java  jar  target/floodlight.jar
 
-（6）	运行SDTS交换机管理软件，即执行nms可执行文件
+（6）运行SDTS交换机管理软件，即执行nms可执行文件
 
 $ cd  sw-src
 
 $./nms  2001:1::10
 
-（7）	打开浏览器，输入地址http://[2001:1::10]:8080/ui/index.html
+（7）打开浏览器，输入地址http://[2001:1::10]:8080/ui/index.html
 
 当您在floodlight提供的UI界面里发现交换机，则说明我们自行设计的SDTS交换机管理软件已近成功运行。
 
