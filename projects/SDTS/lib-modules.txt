@@ -1,0 +1,12 @@
+Ó²¼þ£º
+/lib/hardware/pipeline/action;
+/lib/hardware/pipeline/keygen;
+/lib/hardware/pipeline/match;
+/lib/hardware/pipeline/buffer;
+/lib/hardware/pipeline/parser;
+/lib/hardware/platform/NetMagic08;
+Èí¼þ£º
+/lib/software/channel/openflow;
+/lib/software/services/BVLookup;
+/lib/software/services/TableManage;
+/lib/software/platform/NetMagic08;

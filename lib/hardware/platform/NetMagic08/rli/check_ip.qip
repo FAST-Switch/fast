@@ -1,0 +1,13 @@
+set_global_assignment -name IP_TOOL_NAME "CRC Compiler"
+set_global_assignment -name IP_TOOL_VERSION "11.0"
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "check_ip.v"]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "check_ip_altcrc.v"]
+set_global_assignment -name SEARCH_PATH  [file join $::quartus(qip_path) "." ]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) check_ip.v ]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) check_ip_bb.v ]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) check_ip.bsf ]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) check_ip_altcrc.v ]
+set_global_assignment -name OCP_FILE [file join $::quartus(qip_path) check_ip_altcrc.ocp ]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) check_ip_altcrc.ppf ]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) check_ip.qip ]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) check_ip.html ]

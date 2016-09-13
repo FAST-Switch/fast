@@ -1,0 +1,82 @@
+xtr2.h 为配表代码的头文件，其中包含了所有的功能函数和全局变量。
+	1. 功能函数的含义已经添加在了头文件的注释中
+	2. 为了便于以后的修改，将所有使用到的全局变量分列如下：
+		/*********************************action_table******************************/
+			//u_int32_t action[35];
+			int index1;  //index contains 6bits; // 
+			int LISP_enable;  //LISP 封装
+			int LISP_disable;  // LISP 解封装
+			int MAC_replace;  // replace mac address
+			int foward_enable; 
+			int output_port;  // output port;  8 bit  input:(int)  output: 0000 0001
+
+
+			//action data
+			char ** rloc_src;
+			char ** rloc_dst;
+			char ** mac_dst;
+			char ** mac_src;
+
+			int conf_rule;   //需要配置的action_data的数量
+
+			unsigned int src_rloc[8][4];
+			unsigned int dst_rloc[8][4];
+			unsigned int dst_mac[8][2];
+			unsigned int src_mac[8][2]; 
+
+			unsigned int conf_info[8][11];  //产生action_data数据352位数据。
+
+
+		/*********************************action_table******************************/
+
+
+
+
+		/********************************BV**********************************/
+			char *** mask;      
+			u_int16_t *** b;    //最终由命令来得到位向量的三位数组
+
+			u_int16_t row;
+			//char ** addr;
+			u_int16_t ** a_new;  //将含有‘*’字符串型的表三位数组a转化成为不含‘*’的二维整型数组
+			u_int16_t ** a_mask;    //映射表规则对应的掩码
+			u_int16_t * addr;       //地址空间
+			u_int16_t * bv;
+			int num_rule;    //整个规则表的行数，在层叠网模式下支持最大7条表项。
+
+			u_int16_t num ;  
+			int num_1;   //第一个表的行数 （最长为32，此时第二个表为（35-32））
+			u_int32_t ** addr_vector_1;  //output   12*512;
+			u_int32_t ** addr_vector_2;  //output   12*512; 
+			u_int32_t vector_1;
+			u_int32_t vector_2;
+
+			char rule_b[35][12][9];
+
+		/********************************BV**********************************/
+
+		/****************************match_BV table**************************/
+
+
+			//接收用户除了action_data以外的所有输入，并将[35][12][9]的char数组为BV算法准备好
+			//同时，会将32bit的action数据每次读取后写入硬件
+			int match();
+
+			//int write_table();
+
+			int port; //input port
+			char rule_a[35][108];
+			int mode;  // 1: stack_up    0: solid;
+			char ingress[8]; //represents ingress port; 
+			char IP_addr[35][19];  // 18 bit chars for debug;
+			unsigned int IP_addr_ptr[35][4];  //used for store the whole IPv6 address
+			int i,j;
+			int length; // the length for mode: 18 or more.
+			int length_IP ; // usually it is 128 bits.
+
+
+		/*********************************match_BV table******************************/
+
+
+
+nmachandle.h 为对NetMagic进行读写操作的头文件，主要对生成的表项进行下发。
