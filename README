@@ -1,6 +1,7 @@
 
  1、树结构 
 
+FAST项目在github（https://github.com/FAST-Switch/fast）上的代码树结构如下： 
              
 fast
 │  
@@ -139,15 +140,17 @@ $ifconfig  eth0  inet6  add  2001:1:10/64  up
 
 （6）NetMagic08设备
 
-4、编译运行
+ 4、编译运行
 
 软件编译步骤：（在Ubuntu环境下操作）
 
 （1）下载fast源码
 
+$git  clone  https:// https:// github.com/FAST-Switch/fast.git
+
 （2）进入sw-src目录
 
-$cd   fast/projects/SDTS/sw-src
+	$cd   fast/projects/SDTS/sw-src
 
 （3）按照2.2步骤添加代码
 
@@ -157,22 +160,24 @@ $sudo  make  clean
 
 $sudo  make
 
-（5）运行floodlight控制器（这里假设用户已经下载安装好floodlight）
+（5）	运行floodlight控制器（这里假设用户已经下载安装好floodlight）
 $java  jar  target/floodlight.jar
 
-（6）运行SDTS交换机管理软件，即执行nms可执行文件
+（6）	运行SDTS交换机管理软件，即执行nms可执行文件
 
 $ cd  sw-src
 
 $./nms  2001:1::10
 
-（8）打开浏览器，输入地址http://[2001:1::10]:8080/ui/index.html
+（7）	打开浏览器，输入地址http://[2001:1::10]:8080/ui/index.html
 
 当您在floodlight提供的UI界面里发现交换机，则说明我们自行设计的SDTS交换机管理软件已近成功运行。
 
 硬件编译：（在Windows 7 操作系统下操作）
 
 （1）下载fast源码
+
+到此网址（https:// github.com/FAST-Switch/fast.zip）下载源码并解压到当前目录
 
 （2）进入fast/projects/SDTS/hw-src目录
 
@@ -184,7 +189,7 @@ $./nms  2001:1::10
 
 （6）烧录代码
 
-5、联系
+ 5、联系
 
 Email：netmagic_fast@outlook.com
 
