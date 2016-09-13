@@ -1,7 +1,6 @@
 
-### 1、树结构 
+ 1、树结构 
 
-FAST项目在github（https://github.com/FAST-Switch/fast）上的代码树结构如下： 
              
 fast
 │  
@@ -68,7 +67,7 @@ fast
 
 该树的设计,是为了方便用户工程通过选择共享的lib库，快速搭建不同需求的SDN交换机。
 
-### 2、设计交换机
+ 2、设计交换机
 
 学习如何使用树中的共享lib库来设计自定交换机的最好方式就是参考实例分析，我们通过分析SDTS（Software-Defined Tunnel Switch）交换机的设计，来向用户介绍如何通过配置文件选择lib库快速搭建一个基于端口隧道封装转发的小型SDN交换机。从github获取fast源码:
 
@@ -124,72 +123,68 @@ lib-modules.txt文件指定了所设计交换机的所有需要的lib库文件�
 
 当共享库满足不了用户自己的时候，用户也可以根据需求修改库代码，比如目前软件库中的CounterManager，CounterManager默认情况下是定时把报文的前64字节报文通过packet-in消息上报给控制器，如果用户做流量统计或测量，还需要报文的更多信息，则可以修改CounterManager代码，更改默认的64字节配置。
 
-### 3、环境配置
+ 3、环境配置
 
-（1）	Ubuntu 14.04 64位（也可以是其它Linux系统），本次讲解案例在Ubuntu 14.04下测试通过(注，本次测试交换机管理软件和控制器同时部署在这台Ubuntu系统上)；
+（1）Ubuntu 14.04 64位（也可以是其它Linux系统），本次讲解案例在Ubuntu 14.04下测试通过(注，本次测试交换机管理软件和控制器同时部署在这台Ubuntu系统上)；
 
-（2）	安装开发库：libpacp、libnet
+（2）安装开发库：libpacp、libnet
 
-（3）	配置Java开发环境，主要是为了运行floodlight控制器
+（3）配置Java开发环境，主要是为了运行floodlight控制器
 
-（4）	配置IP地址，这里以测试机为例；
+（4）配置IP地址，这里以测试机为例；
 
 $ifconfig  eth0  inet6  add  2001:1:10/64  up
 
-（5）	Win7系统+Quartus II 15.0（64位）
+（5）Win7系统+Quartus II 15.0（64位）
 
-（6）	NetMagic08设备
+（6）NetMagic08设备
 
-### 4、编译运行
+4、编译运行
 
 软件编译步骤：（在Ubuntu环境下操作）
 
-（1）	下载fast源码
+（1）下载fast源码
 
-$git  clone  https:// https:// github.com/FAST-Switch/fast.git
+（2）进入sw-src目录
 
-（2）	进入sw-src目录
+$cd   fast/projects/SDTS/sw-src
 
-（3）	$cd   fast/projects/SDTS/sw-src
+（3）按照2.2步骤添加代码
 
-（4）	按照2.2步骤添加代码
-
-（5）	执行Makefile文件，在sw-src目录下生成nms可执行文件
+（4）执行Makefile文件，在sw-src目录下生成nms可执行文件
 
 $sudo  make  clean
 
 $sudo  make
 
-（6）	运行floodlight控制器（这里假设用户已经下载安装好floodlight）
+（5）运行floodlight控制器（这里假设用户已经下载安装好floodlight）
 $java  jar  target/floodlight.jar
 
-（7）	运行SDTS交换机管理软件，即执行nms可执行文件
+（6）运行SDTS交换机管理软件，即执行nms可执行文件
 
 $ cd  sw-src
 
 $./nms  2001:1::10
 
-（8）	打开浏览器，输入地址http://[2001:1::10]:8080/ui/index.html
+（8）打开浏览器，输入地址http://[2001:1::10]:8080/ui/index.html
 
 当您在floodlight提供的UI界面里发现交换机，则说明我们自行设计的SDTS交换机管理软件已近成功运行。
 
 硬件编译：（在Windows 7 操作系统下操作）
 
-（1）	下载fast源码
+（1）下载fast源码
 
-到此网址（https:// github.com/FAST-Switch/fast.zip）下载源码并解压到当前目录
+（2）进入fast/projects/SDTS/hw-src目录
 
-（2）	进入fast/projects/SDTS/hw-src目录
+（3）按照2.2步骤添加代码
 
-（3）	按照2.2步骤添加代码
+（4）运行Quartus II 软件
 
-（4）	运行Quartus II 软件
+（5）编译硬件代码
 
-（5）	编译硬件代码
+（6）烧录代码
 
-（6）	烧录代码
-
-### 5、联系
+5、联系
 
 Email：netmagic_fast@outlook.com
 
