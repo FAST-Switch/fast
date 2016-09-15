@@ -178,7 +178,7 @@ $./nms  2001:1::10
 
 （1）下载fast源码
 
-到此网址（https:// github.com/FAST-Switch/fast.zip）下载源码并解压到当前目录
+到此网址（https:// github.com/FAST-Switch/fast/archive/master.zip）下载源码并解压到当前目录
 
 （2）进入fast/projects/SDTS/hw-src目录
 
