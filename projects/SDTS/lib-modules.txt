@@ -2,6 +2,7 @@
 /lib/hardware/pipeline/action;
 /lib/hardware/pipeline/keygen;
 /lib/hardware/pipeline/match;
+/lib/hardware/pipeline/fifo;
 /lib/hardware/pipeline/buffer;
 /lib/hardware/pipeline/parser;
 /lib/hardware/platform/NetMagic08;
