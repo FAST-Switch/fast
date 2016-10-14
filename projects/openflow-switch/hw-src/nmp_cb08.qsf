@@ -1,0 +1,416 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus II License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 14.0.0 Build 200 06/17/2014 SJ Full Version
+# Date created = 20:19:03  April 22, 2015
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		nmp_cb08_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Stratix V"
+set_global_assignment -name DEVICE 5SGXMA3K2F40C3
+set_global_assignment -name TOP_LEVEL_ENTITY nmp_cb08
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 14.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:19:03  APRIL 22, 2015"
+set_global_assignment -name LAST_QUARTUS_VERSION 15.0.0
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 3_H2
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "<None>"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT NONE -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_AA36 -to pcie_l_tx[7]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_tx[7]
+set_location_assignment PIN_AA37 -to "pcie_l_tx[7](n)"
+set_location_assignment PIN_AC36 -to pcie_l_tx[6]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_tx[6]
+set_location_assignment PIN_AC37 -to "pcie_l_tx[6](n)"
+set_location_assignment PIN_AE36 -to pcie_l_tx[5]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_tx[5]
+set_location_assignment PIN_AE37 -to "pcie_l_tx[5](n)"
+set_location_assignment PIN_AG36 -to pcie_l_tx[4]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_tx[4]
+set_location_assignment PIN_AG37 -to "pcie_l_tx[4](n)"
+set_location_assignment PIN_AL36 -to pcie_l_tx[3]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_tx[3]
+set_location_assignment PIN_AL37 -to "pcie_l_tx[3](n)"
+set_location_assignment PIN_AN36 -to pcie_l_tx[2]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_tx[2]
+set_location_assignment PIN_AN37 -to "pcie_l_tx[2](n)"
+set_location_assignment PIN_AR36 -to pcie_l_tx[1]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_tx[1]
+set_location_assignment PIN_AR37 -to "pcie_l_tx[1](n)"
+set_location_assignment PIN_AU36 -to pcie_l_tx[0]
+set_location_assignment PIN_AB38 -to pcie_l_rx[7]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_rx[7]
+set_location_assignment PIN_AB39 -to "pcie_l_rx[7](n)"
+set_location_assignment PIN_AD38 -to pcie_l_rx[6]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_rx[6]
+set_location_assignment PIN_AD39 -to "pcie_l_rx[6](n)"
+set_location_assignment PIN_AF38 -to pcie_l_rx[5]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_rx[5]
+set_location_assignment PIN_AF39 -to "pcie_l_rx[5](n)"
+set_location_assignment PIN_AH38 -to pcie_l_rx[4]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_rx[4]
+set_location_assignment PIN_AH39 -to "pcie_l_rx[4](n)"
+set_location_assignment PIN_AM38 -to pcie_l_rx[3]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_rx[3]
+set_location_assignment PIN_AM39 -to "pcie_l_rx[3](n)"
+set_location_assignment PIN_AP38 -to pcie_l_rx[2]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_rx[2]
+set_location_assignment PIN_AP39 -to "pcie_l_rx[2](n)"
+set_location_assignment PIN_AT38 -to pcie_l_rx[1]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_rx[1]
+set_location_assignment PIN_AT39 -to "pcie_l_rx[1](n)"
+set_location_assignment PIN_AV38 -to pcie_l_rx[0]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_rx[0]
+set_location_assignment PIN_AV39 -to "pcie_l_rx[0](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pcie_l_tx[0]
+set_location_assignment PIN_AU37 -to "pcie_l_tx[0](n)"
+set_location_assignment PIN_AD33 -to pcie_l_refclk
+set_instance_assignment -name IO_STANDARD HCSL -to pcie_l_refclk
+set_location_assignment PIN_AD34 -to "pcie_l_refclk(n)"
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name USE_SIGNALTAP_FILE stp1.stp
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to "pcie_l_rx[0](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to "pcie_l_tx[0](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to "pcie_l_tx[1](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to "pcie_l_rx[2](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to "pcie_l_tx[2](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to "pcie_l_rx[3](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to "pcie_l_tx[3](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to "pcie_l_rx[4](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to "pcie_l_tx[4](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to "pcie_l_rx[5](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to "pcie_l_tx[5](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to "pcie_l_rx[6](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to "pcie_l_tx[6](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to "pcie_l_rx[7](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to "pcie_l_tx[7](n)"
+set_location_assignment PIN_K21 -to SFP_ACTIVE_LED[7]
+set_location_assignment PIN_N20 -to SFP_ACTIVE_LED[6]
+set_location_assignment PIN_N21 -to SFP_ACTIVE_LED[5]
+set_location_assignment PIN_G23 -to SFP_ACTIVE_LED[4]
+set_location_assignment PIN_G20 -to SFP_ACTIVE_LED[3]
+set_location_assignment PIN_A20 -to SFP_ACTIVE_LED[2]
+set_location_assignment PIN_B20 -to SFP_ACTIVE_LED[1]
+set_location_assignment PIN_C20 -to SFP_ACTIVE_LED[0]
+set_location_assignment PIN_H23 -to SFP_LINK_LED[7]
+set_location_assignment PIN_M21 -to SFP_LINK_LED[6]
+set_location_assignment PIN_J21 -to SFP_LINK_LED[5]
+set_location_assignment PIN_L21 -to SFP_LINK_LED[4]
+set_location_assignment PIN_F20 -to SFP_LINK_LED[3]
+set_location_assignment PIN_E20 -to SFP_LINK_LED[2]
+set_location_assignment PIN_H20 -to SFP_LINK_LED[1]
+set_location_assignment PIN_L20 -to SFP_LINK_LED[0]
+set_global_assignment -name PHYSICAL_SYNTHESIS_ASYNCHRONOUS_SIGNAL_PIPELINING ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION ON
+set_global_assignment -name OPTIMIZATION_TECHNIQUE BALANCED
+set_global_assignment -name SYNTH_TIMING_DRIVEN_SYNTHESIS ON
+set_global_assignment -name OPTIMIZE_HOLD_TIMING "ALL PATHS"
+set_global_assignment -name OPTIMIZE_MULTI_CORNER_TIMING ON
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_location_assignment PIN_AN6 -to FPGA_SYS_CLK
+set_location_assignment PIN_AF6 -to R_SGMII_REFCLK
+set_instance_assignment -name IO_STANDARD LVDS -to R_SGMII_REFCLK
+set_location_assignment PIN_AF5 -to "R_SGMII_REFCLK(n)"
+set_location_assignment PIN_AR8 -to FPGA_RESET_L
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII1_TX[0]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII0_RX[0]
+set_location_assignment PIN_AF2 -to SGMII0_RX[0]
+set_location_assignment PIN_AF1 -to "SGMII0_RX[0](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII0_RX[1]
+set_location_assignment PIN_AD2 -to SGMII0_RX[1]
+set_location_assignment PIN_AD1 -to "SGMII0_RX[1](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII0_RX[2]
+set_location_assignment PIN_AK2 -to SGMII0_RX[2]
+set_location_assignment PIN_AK1 -to "SGMII0_RX[2](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII0_RX[3]
+set_location_assignment PIN_AH2 -to SGMII0_RX[3]
+set_location_assignment PIN_AH1 -to "SGMII0_RX[3](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII1_RX[0]
+set_location_assignment PIN_AP2 -to SGMII1_RX[0]
+set_location_assignment PIN_AP1 -to "SGMII1_RX[0](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII1_RX[1]
+set_location_assignment PIN_AM2 -to SGMII1_RX[1]
+set_location_assignment PIN_AM1 -to "SGMII1_RX[1](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII1_RX[2]
+set_location_assignment PIN_AV2 -to SGMII1_RX[2]
+set_location_assignment PIN_AV1 -to "SGMII1_RX[2](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII1_RX[3]
+set_location_assignment PIN_AT2 -to SGMII1_RX[3]
+set_location_assignment PIN_AT1 -to "SGMII1_RX[3](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII0_TX[0]
+set_location_assignment PIN_AE4 -to SGMII0_TX[0]
+set_location_assignment PIN_AE3 -to "SGMII0_TX[0](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII0_TX[1]
+set_location_assignment PIN_AC4 -to SGMII0_TX[1]
+set_location_assignment PIN_AC3 -to "SGMII0_TX[1](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII0_TX[2]
+set_location_assignment PIN_AJ4 -to SGMII0_TX[2]
+set_location_assignment PIN_AJ3 -to "SGMII0_TX[2](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII0_TX[3]
+set_location_assignment PIN_AG4 -to SGMII0_TX[3]
+set_location_assignment PIN_AG3 -to "SGMII0_TX[3](n)"
+set_location_assignment PIN_AN4 -to SGMII1_TX[0]
+set_location_assignment PIN_AN3 -to "SGMII1_TX[0](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII1_TX[1]
+set_location_assignment PIN_AL4 -to SGMII1_TX[1]
+set_location_assignment PIN_AL3 -to "SGMII1_TX[1](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII1_TX[2]
+set_location_assignment PIN_AU4 -to SGMII1_TX[2]
+set_location_assignment PIN_AU3 -to "SGMII1_TX[2](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to SGMII1_TX[3]
+set_location_assignment PIN_AR4 -to SGMII1_TX[3]
+set_location_assignment PIN_AR3 -to "SGMII1_TX[3](n)"
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
+set_global_assignment -name SMART_RECOMPILE OFF
+set_global_assignment -name NUM_PARALLEL_PROCESSORS ALL
+set_global_assignment -name TIMEQUEST_DO_REPORT_TIMING ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_COMBO_LOGIC ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_RETIMING ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_COMBO_LOGIC_FOR_AREA ON
+set_global_assignment -name SAVE_DISK_SPACE OFF
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name GENERATE_RBF_FILE ON
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN ON
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name ACTIVE_SERIAL_CLOCK FREQ_100MHZ
+set_location_assignment PIN_AF13 -to I2C_CLK
+set_location_assignment PIN_AC14 -to I2C_SDA[3]
+set_location_assignment PIN_AF14 -to I2C_SDA[0]
+set_location_assignment PIN_AD14 -to I2C_SDA[1]
+set_location_assignment PIN_AD15 -to I2C_SDA[2]
+set_global_assignment -name VERILOG_FILE UM_OPENFLOW/fifo&ram/rulefifo_64_32.v
+set_global_assignment -name VERILOG_FILE UM_OPENFLOW/fifo&ram/ram_32_256.v
+set_global_assignment -name VERILOG_FILE UM_OPENFLOW/fifo&ram/fifo_65_256.v
+set_global_assignment -name QIP_FILE UM_OPENFLOW/fifo&ram/fifo_65_256.qip
+set_global_assignment -name VERILOG_FILE UM_OPENFLOW/fifo&ram/fifo_64_16.v
+set_global_assignment -name VERILOG_FILE UM_OPENFLOW/loacal_sw.v
+set_global_assignment -name VERILOG_FILE "UM_OPENFLOW/bv-288/search_engine.v"
+set_global_assignment -name VERILOG_FILE "UM_OPENFLOW/bv-288/ram_36_512.v"
+set_global_assignment -name VERILOG_FILE "UM_OPENFLOW/bv-288/lookup_9bit.v"
+set_global_assignment -name VERILOG_FILE "UM_OPENFLOW/bv-288/lookup.v"
+set_global_assignment -name VERILOG_FILE "UM_OPENFLOW/bv-288/hold1clk.v"
+set_global_assignment -name VERILOG_FILE "UM_OPENFLOW/bv-288/calculate_countid.v"
+set_global_assignment -name VERILOG_FILE "UM_OPENFLOW/bv-288/bv_count.v"
+set_global_assignment -name VERILOG_FILE "UM_OPENFLOW/bv-288/bv_and_8.v"
+set_global_assignment -name VERILOG_FILE "UM_OPENFLOW/bv-288/bv_and_4.v"
+set_global_assignment -name VERILOG_FILE UM_OPENFLOW/user_mux.v
+set_global_assignment -name VERILOG_FILE UM_OPENFLOW/user_mgmt_slave.v
+set_global_assignment -name VERILOG_FILE UM_OPENFLOW/UM.v
+set_global_assignment -name VERILOG_FILE UM_OPENFLOW/sync_sig.v
+set_global_assignment -name VERILOG_FILE UM_OPENFLOW/rule_access.v
+set_global_assignment -name VERILOG_FILE UM_OPENFLOW/parser.v
+set_global_assignment -name VERILOG_FILE UM_OPENFLOW/executer.v
+set_global_assignment -name VERILOG_FILE UM_OPENFLOW/dispatch.v
+set_global_assignment -name SDC_FILE nmp_cb08.out.sdc
+set_global_assignment -name QIP_FILE NPE_PCIE/PCIE/PCIEX8.qip
+set_global_assignment -name QIP_FILE IPE_IF_OPENFLOW/mac_core.qip
+set_global_assignment -name QIP_FILE IPE_IF_OPENFLOW/mac_sgmii.qip
+set_global_assignment -name VERILOG_FILE NPE_CAB/FPGA_CNT_REG/FPGA_CNT_REG.v
+set_global_assignment -name VERILOG_FILE NPE_CAB/FPGA_CNT_REG/CNT_WAP.v
+set_global_assignment -name VERILOG_FILE NPE_CAB/FPGA_CNT_REG/CNT_POLL.v
+set_global_assignment -name VERILOG_FILE NPE_CAB/FPGA_CNT_REG/CNT_BUFF.v
+set_global_assignment -name VERILOG_FILE NPE_CAB/FPGA_CNT_REG/CNT_ANALY.v
+set_global_assignment -name VERILOG_FILE NPE_CAB/FPGA_CNT_REG/CNT_AC.v
+set_global_assignment -name SOURCE_FILE nmp_cb08.csv
+set_global_assignment -name VERILOG_FILE IPE_IF_OPENFLOW/MAC_REG_ACC.v
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/ram_64_256.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/ram_64_256.qip
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/ram_128_134.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/ram_128_134.qip
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/ram_32_1.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/ram_32_1.qip
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/fifo_32_5.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/fifo_32_5.qip
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/fifo_16_5.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/fifo_16_5.qip
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/asyn_256_64.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/asyn_256_64.qip
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/fifo_32_24.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/fifo_32_24.qip
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/asyn_1024_134.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/asyn_1024_134.qip
+set_global_assignment -name VERILOG_FILE NPE_DMA/DMA_TX/DMA_TX_PKT.v
+set_global_assignment -name VERILOG_FILE NPE_DMA/DMA_TX/DMA_TX_DES.v
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/ram_32_49.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/ram_32_49.qip
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/fifo_128_49.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/fifo_128_49.qip
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/ram_128_49.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/ram_128_49.qip
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/ram_128_11.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/ram_128_11.qip
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/fifo_512_7.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/fifo_512_7.qip
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/asyn_32_93.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/asyn_32_93.qip
+set_global_assignment -name VERILOG_FILE NPE_CAB/spi/spi_master.v
+set_global_assignment -name VERILOG_FILE NPE_CAB/spi/reg_local.v
+set_global_assignment -name VERILOG_FILE NPE_CAB/spi/local_spi.v
+set_global_assignment -name VERILOG_FILE IPE_PPS_OPENFLOW/INGRESS/INGRESS_OFFSET.v
+set_global_assignment -name VERILOG_FILE IPE_PPS_OPENFLOW/INGRESS/INGRESS_CTRL_zyl.v
+set_global_assignment -name VERILOG_FILE IPE_PPS_OPENFLOW/EGRESS/EGRESS_OFFSET.v
+set_global_assignment -name VERILOG_FILE IPE_PPS_OPENFLOW/DISPATHER/DISPATHER_OUTPUT_zyl.v
+set_global_assignment -name VERILOG_FILE IPE_PPS_OPENFLOW/DISPATHER/DISPATHER_INPUT.v
+set_global_assignment -name VERILOG_FILE IPE_PPS_OPENFLOW/DISPATHER/DISPATHER_CPUID.v
+set_global_assignment -name VERILOG_FILE NPE_PCIE/PCIE/PCIEX8.v -library PCIEX8
+set_global_assignment -name VERILOG_FILE NPE_PCIE/PCIE_TX.v
+set_global_assignment -name VERILOG_FILE NPE_PCIE/PCIE_RX.v
+set_global_assignment -name VERILOG_FILE NPE_PCIE/altpcierd_tl_cfg_sample.v
+set_global_assignment -name VERILOG_FILE NPE_PCIE/altpcierd_cplerr_lmi.v
+set_global_assignment -name VERILOG_FILE NPE_DMA/DMA_TX/DMA_TX.v
+set_global_assignment -name VERILOG_FILE NPE_DMA/DMA_RX.v
+set_global_assignment -name VERILOG_FILE NPE_DMA/ABM.v
+set_global_assignment -name VERILOG_FILE NPE_CAB/parse.v
+set_global_assignment -name VERILOG_FILE NPE_CAB/spi/TOP_LOCAL_SPI.v
+set_global_assignment -name VERILOG_FILE NPE_CAB/FPGA_CTL_REG.v
+set_global_assignment -name VERILOG_FILE NPE_CAB/AMMC.v
+set_global_assignment -name VERILOG_FILE IPE_PPS_OPENFLOW/INGRESS/INGRESS.v
+set_global_assignment -name VERILOG_FILE IPE_PPS_OPENFLOW/EGRESS/EGRESS.v
+set_global_assignment -name VERILOG_FILE IPE_PPS_OPENFLOW/DISPATHER/DISPATHER.v
+set_global_assignment -name VERILOG_FILE IPE_IF_OPENFLOW/SGMII_TX1.v
+set_global_assignment -name VERILOG_FILE IPE_IF_OPENFLOW/SGMII_RX1.v
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/asyn_64_1.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/asyn_64_1.qip
+set_global_assignment -name VERILOG_FILE IPE_IF_OPENFLOW/SGMII_TX.v
+set_global_assignment -name VERILOG_FILE IPE_IF_OPENFLOW/SGMII_RX.v
+set_global_assignment -name VERILOG_FILE IPE_IF_OPENFLOW/sgmii_core.v
+set_global_assignment -name VERILOG_FILE IPE_IF_OPENFLOW/mac_sgmii.v -library mac_sgmii
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/fifo_64_1.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/fifo_64_1.qip
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/fifo_256_134.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/fifo_256_134.qip
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/fifo_64_12.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/fifo_64_12.qip
+set_global_assignment -name VERILOG_FILE FIFO_OPENFLOW/asyn_256_134.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/asyn_256_134.qip
+set_global_assignment -name VERILOG_FILE IPE_PPS_OPENFLOW/CLASSIFY_zyl.v
+set_global_assignment -name VERILOG_FILE IPE_IF_OPENFLOW/UE1_PORT.v
+set_global_assignment -name VERILOG_FILE IPE_IF_OPENFLOW/SGMII_PORT.v
+set_global_assignment -name VERILOG_FILE IPE_IF_OPENFLOW/SGMII_MUX.v
+set_global_assignment -name VERILOG_FILE IPE_IF_OPENFLOW/SGMII_DMUX.v
+set_global_assignment -name VERILOG_FILE IPE_IF_OPENFLOW/OUTPUT_CTL.v
+set_global_assignment -name VERILOG_FILE IPE_IF_OPENFLOW/mac_core.v -library mac_core
+set_global_assignment -name VERILOG_FILE IPE_IF_OPENFLOW/INPUT_CTL.v
+set_global_assignment -name VERILOG_FILE clock_pll_OPENFLOW/clock_pll.v
+set_global_assignment -name QIP_FILE clock_pll_OPENFLOW/clock_pll.qip
+set_global_assignment -name VERILOG_FILE clock_pll_OPENFLOW/card1_pll.v
+set_global_assignment -name QIP_FILE clock_pll_OPENFLOW/card1_pll.qip
+set_global_assignment -name VERILOG_FILE clock_pll_OPENFLOW/card0_pll.v
+set_global_assignment -name QIP_FILE clock_pll_OPENFLOW/card0_pll.qip
+set_global_assignment -name VERILOG_FILE NPE_PCIE/NPE_PCIE.v
+set_global_assignment -name VERILOG_FILE NPE_DMA/NPE_DMA.v
+set_global_assignment -name VERILOG_FILE NPE_CAB/NPE_CAB.v
+set_global_assignment -name VERILOG_FILE IPE_PPS_OPENFLOW/IPE_PPS.v
+set_global_assignment -name VERILOG_FILE IPE_IF_OPENFLOW/IPE_IF.v
+set_global_assignment -name VERILOG_FILE CLK_MANAGE_OPENFLOW/CLK_MANAGE.v
+set_global_assignment -name VERILOG_FILE nmp_cb08.v
+set_global_assignment -name QIP_FILE FIFO_OPENFLOW/asyn_128_93.qip
+set_global_assignment -name PARTITION_NETLIST_TYPE POST_FIT -section_id "NPE_CAB:NPE_CAB"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id "NPE_CAB:NPE_CAB"
+set_global_assignment -name PARTITION_COLOR 39423 -section_id "NPE_CAB:NPE_CAB"
+set_global_assignment -name PARTITION_NETLIST_TYPE POST_FIT -section_id "NPE_DMA:NPE_DMA"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id "NPE_DMA:NPE_DMA"
+set_global_assignment -name PARTITION_COLOR 52377 -section_id "NPE_DMA:NPE_DMA"
+set_global_assignment -name PARTITION_NETLIST_TYPE POST_FIT -section_id "NPE_PCIE:NPE_PCIE"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id "NPE_PCIE:NPE_PCIE"
+set_global_assignment -name PARTITION_COLOR 16776960 -section_id "NPE_PCIE:NPE_PCIE"
+set_global_assignment -name PARTITION_IMPORT_FILE "NPE_CAB-NPE_CAB.qxp" -section_id "NPE_CAB:NPE_CAB"
+set_instance_assignment -name LL_MEMBER_OF "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB" -to "NPE_CAB:NPE_CAB" -section_id "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB" -tag "QXP_IMPORT_NPE_CAB:NPE_CAB"
+set_global_assignment -name LL_STATE FLOATING -section_id "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB" -tag "QXP_IMPORT_NPE_CAB:NPE_CAB"
+set_global_assignment -name LL_WIDTH 1 -section_id "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB" -tag "QXP_IMPORT_NPE_CAB:NPE_CAB"
+set_global_assignment -name LL_HEIGHT 1 -section_id "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB" -tag "QXP_IMPORT_NPE_CAB:NPE_CAB"
+set_global_assignment -name LL_ORIGIN X1_Y1 -section_id "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB" -tag "QXP_IMPORT_NPE_CAB:NPE_CAB"
+set_global_assignment -name LL_RESERVED OFF -section_id "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB" -tag "QXP_IMPORT_NPE_CAB:NPE_CAB"
+set_global_assignment -name LL_CORE_ONLY OFF -section_id "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB" -tag "QXP_IMPORT_NPE_CAB:NPE_CAB"
+set_global_assignment -name LL_AUTO_SIZE ON -section_id "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB" -tag "QXP_IMPORT_NPE_CAB:NPE_CAB"
+set_global_assignment -name LL_ENABLED ON -section_id "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB" -tag "QXP_IMPORT_NPE_CAB:NPE_CAB"
+set_global_assignment -name LL_SECURITY_ROUTING_INTERFACE OFF -section_id "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB" -tag "QXP_IMPORT_NPE_CAB:NPE_CAB"
+set_global_assignment -name LL_IGNORE_IO_BANK_SECURITY_CONSTRAINT OFF -section_id "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB" -tag "QXP_IMPORT_NPE_CAB:NPE_CAB"
+set_global_assignment -name LL_PR_REGION OFF -section_id "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB" -tag "QXP_IMPORT_NPE_CAB:NPE_CAB"
+set_global_assignment -name LL_ROUTING_REGION_EXPANSION_SIZE 2147483647 -section_id "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB" -tag "QXP_IMPORT_NPE_CAB:NPE_CAB"
+set_global_assignment -name PARTITION_LAST_IMPORTED_FILE "NPE_CAB-NPE_CAB.qxp" -section_id "NPE_CAB:NPE_CAB"
+set_global_assignment -name LL_SOURCE_REGION "NPE_CAB:NPE_CAB" -section_id "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB"
+set_global_assignment -name LL_SOURCE_PARTITION_HIERARCHY "NPE_CAB:NPE_CAB" -section_id "NPE_CAB:NPE_CAB|NPE_CAB:NPE_CAB"
+set_global_assignment -name PARTITION_IMPORT_FILE "NPE_DMA-NPE_DMA.qxp" -section_id "NPE_DMA:NPE_DMA"
+set_instance_assignment -name LL_MEMBER_OF "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA" -to "NPE_DMA:NPE_DMA" -section_id "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA" -tag "QXP_IMPORT_NPE_DMA:NPE_DMA"
+set_global_assignment -name LL_STATE FLOATING -section_id "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA" -tag "QXP_IMPORT_NPE_DMA:NPE_DMA"
+set_global_assignment -name LL_WIDTH 1 -section_id "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA" -tag "QXP_IMPORT_NPE_DMA:NPE_DMA"
+set_global_assignment -name LL_HEIGHT 1 -section_id "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA" -tag "QXP_IMPORT_NPE_DMA:NPE_DMA"
+set_global_assignment -name LL_ORIGIN X1_Y1 -section_id "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA" -tag "QXP_IMPORT_NPE_DMA:NPE_DMA"
+set_global_assignment -name LL_RESERVED OFF -section_id "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA" -tag "QXP_IMPORT_NPE_DMA:NPE_DMA"
+set_global_assignment -name LL_CORE_ONLY OFF -section_id "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA" -tag "QXP_IMPORT_NPE_DMA:NPE_DMA"
+set_global_assignment -name LL_AUTO_SIZE ON -section_id "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA" -tag "QXP_IMPORT_NPE_DMA:NPE_DMA"
+set_global_assignment -name LL_ENABLED ON -section_id "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA" -tag "QXP_IMPORT_NPE_DMA:NPE_DMA"
+set_global_assignment -name LL_SECURITY_ROUTING_INTERFACE OFF -section_id "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA" -tag "QXP_IMPORT_NPE_DMA:NPE_DMA"
+set_global_assignment -name LL_IGNORE_IO_BANK_SECURITY_CONSTRAINT OFF -section_id "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA" -tag "QXP_IMPORT_NPE_DMA:NPE_DMA"
+set_global_assignment -name LL_PR_REGION OFF -section_id "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA" -tag "QXP_IMPORT_NPE_DMA:NPE_DMA"
+set_global_assignment -name LL_ROUTING_REGION_EXPANSION_SIZE 2147483647 -section_id "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA" -tag "QXP_IMPORT_NPE_DMA:NPE_DMA"
+set_global_assignment -name PARTITION_LAST_IMPORTED_FILE "NPE_DMA-NPE_DMA.qxp" -section_id "NPE_DMA:NPE_DMA"
+set_global_assignment -name LL_SOURCE_REGION "NPE_DMA:NPE_DMA" -section_id "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA"
+set_global_assignment -name LL_SOURCE_PARTITION_HIERARCHY "NPE_DMA:NPE_DMA" -section_id "NPE_DMA:NPE_DMA|NPE_DMA:NPE_DMA"
+set_global_assignment -name PARTITION_IMPORT_FILE "NPE_PCIE-NPE_PCIE.qxp" -section_id "NPE_PCIE:NPE_PCIE"
+set_instance_assignment -name LL_MEMBER_OF "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE" -to "NPE_PCIE:NPE_PCIE" -section_id "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE" -tag "QXP_IMPORT_NPE_PCIE:NPE_PCIE"
+set_global_assignment -name LL_STATE FLOATING -section_id "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE" -tag "QXP_IMPORT_NPE_PCIE:NPE_PCIE"
+set_global_assignment -name LL_WIDTH 1 -section_id "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE" -tag "QXP_IMPORT_NPE_PCIE:NPE_PCIE"
+set_global_assignment -name LL_HEIGHT 1 -section_id "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE" -tag "QXP_IMPORT_NPE_PCIE:NPE_PCIE"
+set_global_assignment -name LL_ORIGIN X1_Y1 -section_id "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE" -tag "QXP_IMPORT_NPE_PCIE:NPE_PCIE"
+set_global_assignment -name LL_RESERVED OFF -section_id "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE" -tag "QXP_IMPORT_NPE_PCIE:NPE_PCIE"
+set_global_assignment -name LL_CORE_ONLY OFF -section_id "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE" -tag "QXP_IMPORT_NPE_PCIE:NPE_PCIE"
+set_global_assignment -name LL_AUTO_SIZE ON -section_id "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE" -tag "QXP_IMPORT_NPE_PCIE:NPE_PCIE"
+set_global_assignment -name LL_ENABLED ON -section_id "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE" -tag "QXP_IMPORT_NPE_PCIE:NPE_PCIE"
+set_global_assignment -name LL_SECURITY_ROUTING_INTERFACE OFF -section_id "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE" -tag "QXP_IMPORT_NPE_PCIE:NPE_PCIE"
+set_global_assignment -name LL_IGNORE_IO_BANK_SECURITY_CONSTRAINT OFF -section_id "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE" -tag "QXP_IMPORT_NPE_PCIE:NPE_PCIE"
+set_global_assignment -name LL_PR_REGION OFF -section_id "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE" -tag "QXP_IMPORT_NPE_PCIE:NPE_PCIE"
+set_global_assignment -name LL_ROUTING_REGION_EXPANSION_SIZE 2147483647 -section_id "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE" -tag "QXP_IMPORT_NPE_PCIE:NPE_PCIE"
+set_global_assignment -name PARTITION_LAST_IMPORTED_FILE "NPE_PCIE-NPE_PCIE.qxp" -section_id "NPE_PCIE:NPE_PCIE"
+set_global_assignment -name LL_SOURCE_REGION "NPE_PCIE:NPE_PCIE" -section_id "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE"
+set_global_assignment -name LL_SOURCE_PARTITION_HIERARCHY "NPE_PCIE:NPE_PCIE" -section_id "NPE_PCIE:NPE_PCIE|NPE_PCIE:NPE_PCIE"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY npeca_05aa1 -to "NPE_CAB:NPE_CAB" -section_id "NPE_CAB:NPE_CAB"
+set_instance_assignment -name PARTITION_HIERARCHY npedm_4b271 -to "NPE_DMA:NPE_DMA" -section_id "NPE_DMA:NPE_DMA"
+set_instance_assignment -name PARTITION_HIERARCHY npepc_2e6c1 -to "NPE_PCIE:NPE_PCIE" -section_id "NPE_PCIE:NPE_PCIE"

@@ -1,0 +1,230 @@
+set_global_assignment -entity "mac_core" -library "mac_core" -name IP_TOOL_NAME "altera_eth_tse"
+set_global_assignment -entity "mac_core" -library "mac_core" -name IP_TOOL_VERSION "14.0"
+set_global_assignment -entity "mac_core" -library "mac_core" -name IP_TOOL_ENV "mwpim"
+set_global_assignment -library "mac_core" -name MISC_FILE [file join $::quartus(qip_path) "mac_core.cmp"]
+set_global_assignment -entity "mac_core" -library "mac_core" -name IP_TARGETED_DEVICE_FAMILY "Stratix IV"
+set_global_assignment -entity "mac_core" -library "mac_core" -name IP_GENERATED_DEVICE_FAMILY "{Stratix IV}"
+set_global_assignment -entity "mac_core" -library "mac_core" -name IP_QSYS_MODE "UNKNOWN"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -entity "mac_core" -library "mac_core" -name IP_COMPONENT_NAME "bWFjX2NvcmU="
+set_global_assignment -entity "mac_core" -library "mac_core" -name IP_COMPONENT_DISPLAY_NAME "VHJpcGxlLVNwZWVkIEV0aGVybmV0"
+set_global_assignment -entity "mac_core" -library "mac_core" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "mac_core" -library "mac_core" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "mac_core" -library "mac_core" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "mac_core" -library "mac_core" -name IP_COMPONENT_VERSION "MTQuMA=="
+set_global_assignment -entity "mac_core" -library "mac_core" -name IP_COMPONENT_DESCRIPTION "QWx0ZXJhIFRyaXBsZSBTcGVlZCBFdGhlcm5ldA=="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_NAME "bWFjX2NvcmVfMDAwMg=="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_DISPLAY_NAME "VHJpcGxlLVNwZWVkIEV0aGVybmV0"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_VERSION "MTQuMA=="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_DESCRIPTION "QWx0ZXJhIFRyaXBsZSBTcGVlZCBFdGhlcm5ldA=="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZGV2aWNlRmFtaWx5TmFtZQ==::U3RyYXRpeCBJVg==::RGV2aWNlIEZhbWlseQ=="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX3BhZGRpbmc=::dHJ1ZQ==::ZW5hYmxlX3BhZGRpbmc="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2xndGhfY2hlY2s=::dHJ1ZQ==::ZW5hYmxlX2xndGhfY2hlY2s="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "Z2JpdF9vbmx5::dHJ1ZQ==::Z2JpdF9vbmx5"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "bWJpdF9vbmx5::dHJ1ZQ==::bWJpdF9vbmx5"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "cmVkdWNlZF9jb250cm9s::ZmFsc2U=::cmVkdWNlZF9jb250cm9s"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "Y29yZV92ZXJzaW9u::MzU4NA==::Y29yZV92ZXJzaW9u"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZGV2X3ZlcnNpb24=::MzU4NA==::ZGV2X3ZlcnNpb24="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZWdfZmlmbw==::MjA0OA==::ZWdfZmlmbw=="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "aW5nX2ZpZm8=::MjA0OA==::aW5nX2ZpZm8="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "cmVkdWNlZF9pbnRlcmZhY2VfZW5h::ZmFsc2U=::cmVkdWNlZF9pbnRlcmZhY2VfZW5h"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "c3luY2hyb25pemVyX2RlcHRo::NA==::c3luY2hyb25pemVyX2RlcHRo"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZGV2aWNlRmFtaWx5::U1RSQVRJWElW::ZGV2aWNlRmFtaWx5"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "aXNVc2VNQUM=::dHJ1ZQ==::aXNVc2VNQUM="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "aXNVc2VQQ1M=::ZmFsc2U=::aXNVc2VQQ1M="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2Nsa19zaGFyaW5n::ZmFsc2U=::ZW5hYmxlX2Nsa19zaGFyaW5n"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "Y29yZV92YXJpYXRpb24=::TUFDX09OTFk=::Q29yZSB2YXJpYXRpb24="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "aWZHTUlJ::TUlJX0dNSUk=::SW50ZXJmYWNl"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX3VzZV9pbnRlcm5hbF9maWZv::dHJ1ZQ==::VXNlIGludGVybmFsIEZJRk8="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2VjYw==::ZmFsc2U=::RW5hYmxlIEVDQyBwcm90ZWN0aW9u"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "dXNlX21pc2NfcG9ydHM=::dHJ1ZQ==::VXNlIG1pc2MgcG9ydHM="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2hkX2xvZ2lj::dHJ1ZQ==::RW5hYmxlIE1BQyAxMC8xMDAgaGFsZiBkdXBsZXggc3VwcG9ydA=="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2dtaWlfbG9vcGJhY2s=::ZmFsc2U=::RW5hYmxlIGxvY2FsIGxvb3BiYWNrIG9uIE1JSS9HTUlJL1JHTUlJ"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX3N1cF9hZGRy::ZmFsc2U=::RW5hYmxlIHN1cHBsZW1lbnRhbCBNQUMgdW5pY2FzdCBhZGRyZXNzZXM="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "c3RhdF9jbnRfZW5h::dHJ1ZQ==::SW5jbHVkZSBzdGF0aXN0aWNzIGNvdW50ZXJz"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZXh0X3N0YXRfY250X2VuYQ==::ZmFsc2U=::RW5hYmxlIDY0LWJpdCBzdGF0aXN0aWNzIGJ5dGUgY291bnRlcnM="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZW5hX2hhc2g=::ZmFsc2U=::SW5jbHVkZSBtdWx0aWNhc3QgaGFzaHRhYmxl"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX3NoaWZ0MTY=::dHJ1ZQ==::QWxpZ24gcGFja2V0IGhlYWRlcnMgdG8gMzItYml0IGJvdW5kYXJ5"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX21hY19mbG93X2N0cmw=::ZmFsc2U=::RW5hYmxlIGZ1bGwtZHVwbGV4IGZsb3cgY29udHJvbA=="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX21hY192bGFu::ZmFsc2U=::RW5hYmxlIFZMQU4gZGV0ZWN0aW9u"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX21hZ2ljX2RldGVjdA==::dHJ1ZQ==::RW5hYmxlIG1hZ2ljIHBhY2tldCBkZXRlY3Rpb24="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "dXNlTURJTw==::ZmFsc2U=::SW5jbHVkZSBNRElPIG1vZHVsZSAoTURDL01ESU8p"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2VuYQ==::MzI=::V2lkdGg="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "ZWdfYWRkcg==::MTE=::VHJhbnNtaXQ="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "aW5nX2FkZHI=::MTE=::UmVjZWl2ZQ=="
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::VW5rbm93bg==::QXV0byBERVZJQ0U="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_NAME "YWx0ZXJhX2V0aF90c2VfbWFj"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_DISPLAY_NAME "YWx0ZXJhX2V0aF90c2VfbWFj"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_INTERNAL "On"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_VERSION "MTQuMA=="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "SU5HX0FERFI=::MTE=::SU5HX0FERFI="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BQkxFX01BQ19SWF9WTEFO::ZmFsc2U=::RU5BQkxFX01BQ19SWF9WTEFO"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BQkxFX1NVUF9BRERS::ZmFsc2U=::RU5BQkxFX1NVUF9BRERS"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "REVWSUNFX0ZBTUlMWQ==::U1RSQVRJWElW::REVWSUNFX0ZBTUlMWQ=="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "SU5TRVJUX1RB::ZmFsc2U=::SU5TRVJUX1RB"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "SU5HX0ZJRk8=::MjA0OA==::SU5HX0ZJRk8="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BQkxFX0VDQw==::ZmFsc2U=::RU5BQkxFX0VDQw=="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "Q1JDMzJEV0lEVEg=::OA==::Q1JDMzJEV0lEVEg="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BQkxFX0VOQQ==::MzI=::RU5BQkxFX0VOQQ=="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "U1lOQ0hST05JWkVSX0RFUFRI::NA==::U1lOQ0hST05JWkVSX0RFUFRI"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BQkxFX01BQ19UWF9WTEFO::ZmFsc2U=::RU5BQkxFX01BQ19UWF9WTEFO"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "UkVTRVRfTEVWRUw=::MQ==::UkVTRVRfTEVWRUw="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "U1RBVF9DTlRfRU5B::dHJ1ZQ==::U1RBVF9DTlRfRU5B"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "Q1VTVF9WRVJTSU9O::MA==::Q1VTVF9WRVJTSU9O"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "Q1JDMzJTMUwyX0VYVEVSTg==::ZmFsc2U=::Q1JDMzJTMUwyX0VYVEVSTg=="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "TUJJVF9PTkxZ::dHJ1ZQ==::TUJJVF9PTkxZ"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RUdfQUREUg==::MTE=::RUdfQUREUg=="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "Q09SRV9WRVJTSU9O::MzU4NA==::Q09SRV9WRVJTSU9O"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "Q1JDMzJHRU5ERUxBWQ==::Ng==::Q1JDMzJHRU5ERUxBWQ=="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RUdfRklGTw==::MjA0OA==::RUdfRklGTw=="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "UkVEVUNFRF9JTlRFUkZBQ0VfRU5B::ZmFsc2U=::UkVEVUNFRF9JTlRFUkZBQ0VfRU5B"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BQkxFX01BR0lDX0RFVEVDVA==::dHJ1ZQ==::RU5BQkxFX01BR0lDX0RFVEVDVA=="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BQkxFX01ESU8=::ZmFsc2U=::RU5BQkxFX01ESU8="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BQkxFX01BQ19UWEFERFJfU0VU::dHJ1ZQ==::RU5BQkxFX01BQ19UWEFERFJfU0VU"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "UkFNX1RZUEU=::QVVUTw==::UkFNX1RZUEU="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "Q1JDMzJDSEVDSzE2QklU::MA==::Q1JDMzJDSEVDSzE2QklU"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BQkxFX0xHVEhfQ0hFQ0s=::dHJ1ZQ==::RU5BQkxFX0xHVEhfQ0hFQ0s="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BQkxFX01BQ19GTE9XX0NUUkw=::ZmFsc2U=::RU5BQkxFX01BQ19GTE9XX0NUUkw="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BQkxFX1NISUZUMTY=::dHJ1ZQ==::RU5BQkxFX1NISUZUMTY="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "VVNFX1NZTkNfUkVTRVQ=::dHJ1ZQ==::VVNFX1NZTkNfUkVTRVQ="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "UkVEVUNFRF9DT05UUk9M::ZmFsc2U=::UkVEVUNFRF9DT05UUk9M"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "TURJT19DTEtfRElW::NDA=::TURJT19DTEtfRElW"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BQkxFX1BBRERJTkc=::dHJ1ZQ==::RU5BQkxFX1BBRERJTkc="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BQkxFX0dNSUlfTE9PUEJBQ0s=::ZmFsc2U=::RU5BQkxFX0dNSUlfTE9PUEJBQ0s="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "R0JJVF9PTkxZ::dHJ1ZQ==::R0JJVF9PTkxZ"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BX0hBU0g=::ZmFsc2U=::RU5BX0hBU0g="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BQkxFX0VYVEVOREVEX1NUQVRfUkVH::ZmFsc2U=::RU5BQkxFX0VYVEVOREVEX1NUQVRfUkVH"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "RU5BQkxFX0hEX0xPR0lD::dHJ1ZQ==::RU5BQkxFX0hEX0xPR0lD"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "aWZHTUlJ::TUlJX0dNSUk=::SW50ZXJmYWNl"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "dXNlX21pc2NfcG9ydHM=::dHJ1ZQ==::RW5hYmxlIG1pc2MgcG9ydHM="
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_COMPONENT_PARAMETER "Y29ubmVjdF90b19wY3M=::ZmFsc2U=::Q29ubmVjdCB0aGlzIG1hYyBpbnN0YW5jZSB0byBwY3M="
+
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/mac_core_0002.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_eth_tse_mac.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_clk_cntl.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_crc328checker.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_crc328generator.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_crc32ctl8.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_crc32galois8.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_gmii_io.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_lb_read_cntl.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_lb_wrt_cntl.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_hashing.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_host_control.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_host_control_small.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_mac_control.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_register_map.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_register_map_small.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_rx_counter_cntl.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_shared_mac_control.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_shared_register_map.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_tx_counter_cntl.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_lfsr_10.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_loopback_ff.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_altshifttaps.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_fifoless_mac_rx.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_mac_rx.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_fifoless_mac_tx.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_mac_tx.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_magic_detection.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_mdio.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_mdio_clk_gen.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_mdio_cntl.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_top_mdio.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_mii_rx_if.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_mii_tx_if.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_pipeline_base.v"]
+set_global_assignment -library "mac_core" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_pipeline_stage.sv"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_dpram_16x32.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_dpram_8x32.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_dpram_ecc_16x32.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_quad_16x32.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_quad_8x32.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_fifoless_retransmit_cntl.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_retransmit_cntl.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_rgmii_in1.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_rgmii_in4.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_nf_rgmii_module.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_rgmii_module.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_rgmii_out1.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_rgmii_out4.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_rx_ff.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_rx_min_ff.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_rx_ff_cntrl.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_rx_ff_cntrl_32.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_rx_ff_cntrl_32_shift16.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_rx_ff_length.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_rx_stat_extract.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_timing_adapter32.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_timing_adapter8.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_timing_adapter_fifo32.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_timing_adapter_fifo8.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_top_1geth.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_top_fifoless_1geth.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_top_w_fifo.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_top_w_fifo_10_100_1000.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_top_wo_fifo.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_top_wo_fifo_10_100_1000.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_top_gen_host.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_tx_ff.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_tx_min_ff.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_tx_ff_cntrl.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_tx_ff_cntrl_32.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_tx_ff_cntrl_32_shift16.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_tx_ff_length.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_tx_ff_read_cntl.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_tx_stat_extract.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_false_path_marker.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_reset_synchronizer.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_clock_crosser.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_a_fifo_13.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_a_fifo_24.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_a_fifo_34.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_a_fifo_opt_1246.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_a_fifo_opt_14_44.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_a_fifo_opt_36_10.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_gray_cnt.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_sdpm_altsyncram.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_altsyncram_dpm_fifo.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_bin_cnt.v"]
+set_global_assignment -library "mac_core" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ph_calculator.sv"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_sdpm_gen.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_dc_fifo.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_dec_x10.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_enc_x10.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_enc_x10_wrapper.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_dec_x14.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_enc_x14.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_enc_x14_wrapper.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_dec_x2.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_enc_x2.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_enc_x2_wrapper.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_dec_x23.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_enc_x23.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_enc_x23_wrapper.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_dec_x36.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_enc_x36.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_enc_x36_wrapper.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_dec_x40.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_enc_x40.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_enc_x40_wrapper.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_dec_x30.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_enc_x30.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_enc_x30_wrapper.v"]
+set_global_assignment -library "mac_core" -name VERILOG_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_ecc_status_crosser.v"]
+set_global_assignment -library "mac_core" -name SOURCE_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_top_wo_fifo_10_100_1000.ocp"]
+set_global_assignment -library "mac_core" -name SOURCE_FILE [file join $::quartus(qip_path) "mac_core/altera_tse_top_w_fifo_10_100_1000.ocp"]
+set_global_assignment -library "mac_core" -name SDC_FILE [file join $::quartus(qip_path) "mac_core/altera_eth_tse_mac.sdc"]
+
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_TOOL_NAME "altera_eth_tse"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_TOOL_VERSION "14.0"
+set_global_assignment -entity "mac_core_0002" -library "mac_core" -name IP_TOOL_ENV "mwpim"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_TOOL_NAME "altera_eth_tse_mac"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_TOOL_VERSION "14.0"
+set_global_assignment -entity "altera_eth_tse_mac" -library "mac_core" -name IP_TOOL_ENV "mwpim"

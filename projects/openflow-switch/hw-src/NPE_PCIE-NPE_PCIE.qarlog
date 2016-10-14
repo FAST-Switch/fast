@@ -1,0 +1,29 @@
+Quartus II Archive log --	/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/NPE_PCIE-NPE_PCIE.qarlog
+
+Archive:	/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/NPE_PCIE-NPE_PCIE.qar
+Date:		Fri Oct 14 18:22:26 2016
+Quartus II 64-Bit		15.0.0 Build 145 04/22/2015 SJ Full Version
+
+	=========== Files Selected: ===========
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.cmp.atm
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.cmp.cfm
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.cmp.dfp
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.cmp.dpi
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.cmp.hdbx
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.cmp.logdb
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.cmp.map.kpt
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.cmp.qxp_info
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.cmp.rcf
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.cmp.scidsc
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.map.atm
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.map.dpi
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.map.hdbx
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.map.logdb
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.map.map.kpt
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.map.qxp_info
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/nmp_cb08.map.scidsc
+/home/zengqiang/ftp/code/nmp/nmp_cb08_restored_1005_um_3_stp_pcie_wangbiao/db/nmp_cb08_tmp_qic_export/qic_export_file_list
+	======= Total: 18 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

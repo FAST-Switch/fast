@@ -1,0 +1,2 @@
+#comment: example of PLL TYPE assignment for TX PLL. This assignment is needed for every TX PLL that exist in the design
+#set_instance_assignment -name PLL_TYPE ATX -to "altera_xcvr_custom:instance_name_inst|sv_xcvr_custom_nr:S5|sv_xcvr_custom_native:transceiver_core|sv_xcvr_plls:sv_xcvr_native_insts[0].tx_plls|pll[0].tx_pll" -entity sv_xcvr_plls
