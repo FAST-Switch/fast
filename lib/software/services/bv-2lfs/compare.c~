@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "xtr2.h"
-//#include"nmachandle.h"
+#include"nmachandle.h"
 
 int compare(struct fast_table *fast){
 

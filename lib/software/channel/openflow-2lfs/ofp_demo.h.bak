@@ -126,8 +126,7 @@ struct configure_subid_rloc_table {
 };
 
 struct _flow_table{
-	u32 status;
-	char*  key;
+	u32  key;
 	u32  in_port;
 	u32  out_port;
 	u32  data_len;
@@ -140,8 +139,8 @@ struct _flow_table{
 struct _flow_table flow_table[FLOW_NUMBER];
 /*
 /*add  flow */
-void add_flow(struct  _flow_table  flow_table[],u8 *data,char * key,u32  inport,u32  outport,u32 match_len);
-void   del_a_flow(char * key);
+void add_flow(struct  _flow_table  flow_table[],u8 *data,u32 key,u32  inport,u32  outport,u32 match_len);
+void   del_a_flow(u32 key);
 void   del_flow_by_port(u32 port);
 void   del_all_flow();
 

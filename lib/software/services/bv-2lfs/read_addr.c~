@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "xtr2.h"
-//#include"nmachandle.h"
+#include"nmachandle.h"
 
 void read_addr(int addr){
     int x_row,x_col,i,j,k;
